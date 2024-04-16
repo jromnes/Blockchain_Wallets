@@ -92,7 +92,7 @@ candidate_database = {
         "Lane",
         "0xaC8eB8B2ed5C4a0fC41a84Ee4950F417f67029F0",
         "4.3",
-        0.20
+        0.20,
     ],
     "Ash": [
         "Ash",
@@ -123,7 +123,7 @@ def get_people():
     db_list = list(candidate_database.values())
 
     for number in range(len(people)):
-        st.image(db_list[number][4], width=200)
+        # st.image(db_list[number][4], width=200)
         st.write("Name: ", db_list[number][0])
         st.write("Ethereum Account Address: ", db_list[number][1])
         st.write("KryptoJobs2Go Rating: ", db_list[number][2])
@@ -152,7 +152,7 @@ st.sidebar.markdown("## Client Account Address and Ethernet Balance in Ether")
 
 # @TODO:
 #  Call the `generate_account` function and save it as the variable `account`
-account = generate_account(w3)
+account = generate_account()
 
 ##########################################
 
