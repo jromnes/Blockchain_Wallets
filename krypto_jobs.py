@@ -92,28 +92,31 @@ candidate_database = {
         "Lane",
         "0xaC8eB8B2ed5C4a0fC41a84Ee4950F417f67029F0",
         "4.3",
-        0.20
+        0.20,
+        "Images/lane.jpeg",
     ],
     "Ash": [
         "Ash",
         "0x2422858F9C4480c2724A309D58Ffd7Ac8bF65396",
         "5.0",
-        0.33
+        0.33,
+        "Images/ash.jpeg",
     ],
     "Jo": [
         "Jo",
         "0x8fD00f170FDf3772C5ebdCD90bF257316c69BA45",
         "4.7",
-        0.19
+        0.19,
+        "Images/jo.jpeg",
     ],
     "Kendall": [
         "Kendall",
         "0x8fD00f170FDf3772C5ebdCD90bF257316c69BA45",
         "4.1",
-        0.16
+        0.16,
+        "Images/kendall.jpeg",
     ],
 }
-
 # A list of the KryptoJobs2Go candidates first names
 people = ["Lane", "Ash", "Jo", "Kendall"]
 
